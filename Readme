@@ -54,3 +54,47 @@ Selection Sort mantığı: Her adımda en küçük eleman bulunur ve başa alın
 	•	[2,3,4,8,7,9,5,15,6]
 	•	[2,3,4,5,7,9,8,15,6]
 
+
+
+
+           PROJE 2: MARGE SORT
+
+---- * Merge Sort Projesi * ----
+
+Soru:
+
+Dizi: [16, 21, 11, 8, 12, 22]
+	•	Merge Sort aşamalarını yaz.
+	•	Big-O gösterimini ver.
+
+⸻
+
+ Merge Sort Çözümü
+
+Adım 1 – Bölme:
+	•	[16, 21, 11, 8, 12, 22]
+→ ikiye böl → [16, 21, 11] ve [8, 12, 22]
+
+Adım 2 – Tekrar bölme:
+	•	[16, 21, 11] → [16] ve [21, 11]
+	•	[21, 11] → [21] ve [11]
+	•	[8, 12, 22] → [8] ve [12, 22]
+	•	[12, 22] → [12] ve [22]
+
+Adım 3 – Birleştirme:
+	•	[21] + [11] → [11, 21]
+	•	[16] + [11, 21] → [11, 16, 21]
+	•	[12] + [22] → [12, 22]
+	•	[8] + [12, 22] → [8, 12, 22]
+
+Adım 4 – Son Birleştirme:
+	•	[11, 16, 21] + [8, 12, 22] → [8, 11, 12, 16, 21, 22]
+
+Sonuç: [8, 11, 12, 16, 21, 22]
+
+⸻
+
+ Big-O Gösterimi
+
+Merge Sort her zaman:
+	•	O(n log n)
