@@ -2,20 +2,20 @@
 
 1. [22,27,16,2,18,6] -> Insertion Sort aşamaları
 
-Insertion Sort adımları:
+Insertion Sort Aşamaları:
 	•	Başlangıç: [22, 27, 16, 2, 18, 6]
-	•	27 → 22’den büyük, değişim yok → [22, 27, 16, 2, 18, 6]
-	•	16 → 27’nin önüne geçer → [22, 16, 27, 2, 18, 6]
-	•	16 → 22’nin önüne geçer → [16, 22, 27, 2, 18, 6]
-	•	2 → 27’nin önüne geçer → [16, 22, 2, 27, 18, 6]
-	•	2 → 22’nin önüne geçer → [16, 2, 22, 27, 18, 6]
-	•	2 → 16’nın önüne geçer → [2, 16, 22, 27, 18, 6]
-	•	18 → 27’nin önüne geçer → [2, 16, 22, 18, 27, 6]
-	•	18 → 22’nin önüne geçer → [2, 16, 18, 22, 27, 6]
-	•	6 → 27’nin önüne geçer → [2, 16, 18, 22, 6, 27]
-	•	6 → 22’nin önüne geçer → [2, 16, 18, 6, 22, 27]
-	•	6 → 18’in önüne geçer → [2, 16, 6, 18, 22, 27]
-	•	6 → 16’nın önüne geçer → [2, 6, 16, 18, 22, 27]
+	•	27 → 22’den büyük, değişimmedi → [22, 27, 16, 2, 18, 6]
+	•	16 → 27’nin önüne geçti → [22, 16, 27, 2, 18, 6]
+	•	16 → 22’nin önüne geçti → [16, 22, 27, 2, 18, 6]
+	•	2 → 27’nin önüne geçti → [16, 22, 2, 27, 18, 6]
+	•	2 → 22’nin önüne geçti → [16, 2, 22, 27, 18, 6]
+	•	2 → 16’nın önüne geçti → [2, 16, 22, 27, 18, 6]
+	•	18 → 27’nin önüne geçti → [2, 16, 22, 18, 27, 6]
+	•	18 → 22’nin önüne geçti → [2, 16, 18, 22, 27, 6]
+	•	6 → 27’nin önüne geçti → [2, 16, 18, 22, 6, 27]
+	•	6 → 22’nin önüne geçti → [2, 16, 18, 6, 22, 27]
+	•	6 → 18’in önüne geçti → [2, 16, 6, 18, 22, 27]
+	•	6 → 16’nın önüne geçti → [2, 6, 16, 18, 22, 27]
 
 Son sıralı dizi: [2, 6, 16, 18, 22, 27]
 
@@ -29,18 +29,18 @@ Son sıralı dizi: [2, 6, 16, 18, 22, 27]
 3. 18 sayısının hangi case’e girdiği?
 	•	Sıralı dizimiz: [2, 6, 16, 18, 22, 27]
 	•	18 sayısı ortalarda yer alıyor.
-👉 Average Case
+ Average Case
 
 ⸻
 
 4. [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort ilk 4 adımı
 
 Selection Sort mantığı: Her adımda en küçük eleman bulunur ve başa alınır.
-	•	Başlangıç: [7,3,5,8,2,9,4,15,6]
-	•		1.	adım: En küçük 2 → başa gelir → [2,3,5,8,7,9,4,15,6]
-	•		2.	adım: 2 sabit, sıradaki en küçük 3 → zaten doğru yerde → [2,3,5,8,7,9,4,15,6]
-	•		3.	adım: 3 sabit, sıradaki en küçük 4 → 5 ile yer değiştirir → [2,3,4,8,7,9,5,15,6]
-	•		4.	adım: 4 sabit, sıradaki en küçük 5 → 8 ile yer değiştirir → [2,3,4,5,7,9,8,15,6]
+	Başlangıç: [7,3,5,8,2,9,4,15,6]
+	1.	adım: En küçük 2 → başa gelir → [2,3,5,8,7,9,4,15,6]
+	2.	adım: 2 sabit, sıradaki en küçük 3 → zaten doğru yerde → [2,3,5,8,7,9,4,15,6]
+	3.	adım: 3 sabit, sıradaki en küçük 4 → 5 ile yer değiştirir → [2,3,4,8,7,9,5,15,6]
+	4.	adım: 4 sabit, sıradaki en küçük 5 → 8 ile yer değiştirir → [2,3,4,5,7,9,8,15,6]
 
 ⸻
 
@@ -98,3 +98,24 @@ Sonuç: [8, 11, 12, 16, 21, 22]
 
 Merge Sort her zaman:
 	•	O(n log n)
+
+
+
+
+	   PROJE 3: BİNARY SEARCH TREE
+
+ ---- * Binary Search Projesi * ----
+
+Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+1. Root 7’dir.  
+2. 7’nin solunda 5, sağında 8 bulunur.  
+3. 5’in solunda 1, sağında 6 bulunur.  
+4. 1’in solunda 0, sağında 3 bulunur.  
+5. 3’ün solunda 2, sağında 4 bulunur.  
+6. 8’in sağında 9 bulunur.  
+
+
+Hazırlayan: 
+      Hanife Alay 
+  
